@@ -1,0 +1,25 @@
+const applyCoupon = category => discount => item =>  {
+ 
+ item.price -= item.price * discount;
+ 
+ return item
+
+};
+
+
+
+const item = {
+ 
+"name" : "Biscuits",
+ 
+ "type" :"regular",
+  
+"category" : "food",
+
+  "price" : 2
+
+}
+
+
+
+console.log(applyCoupon("food")(0.1)(item).price);
