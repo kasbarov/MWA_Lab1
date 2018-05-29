@@ -1,4 +1,4 @@
-
+ 
 Array.prototype.isDual = function(){
   
 // array must have even number of elements
